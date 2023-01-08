@@ -624,12 +624,13 @@ namespace JRunner.Panels
                 if (chkListBoxPatches.GetItemChecked(selected))
                 {
                     Console.WriteLine(chkListBoxPatches.Items[selected].ToString() + " Selected");
-                    if (selected == 0) patches[selected + 1] = "-a nofcrt";
+                    if (selected == 0) patches[selected + 1] = "-a UsbdSecPatch";
                     else if (selected == 1) patches[selected + 1] = "-a noSShdd";
                     else if (selected == 2) patches[selected + 1] = "-a nointmu";
                     else if (selected == 3) patches[selected + 1] = "-a nohdd";
                     else if (selected == 4) patches[selected + 1] = "-a nohdmiwait";
                     else if (selected == 5) patches[selected + 1] = "-a nolan";
+                    else if (selected == 6) patches[selected + 1] = "-a nofcrt";
                 }
                 else
                 {

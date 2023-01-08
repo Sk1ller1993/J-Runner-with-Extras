@@ -507,7 +507,7 @@
             // 
             this.groupBox1.Controls.Add(this.chkXLHdd);
             this.groupBox1.Controls.Add(this.chkXLUsb);
-            this.groupBox1.Location = new System.Drawing.Point(97, 3);
+            this.groupBox1.Location = new System.Drawing.Point(155, 3);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(107, 80);
             this.groupBox1.TabIndex = 6;
@@ -544,7 +544,7 @@
             // 
             this.chkWB4G.AutoSize = true;
             this.chkWB4G.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.chkWB4G.Location = new System.Drawing.Point(97, 89);
+            this.chkWB4G.Location = new System.Drawing.Point(155, 89);
             this.chkWB4G.Name = "chkWB4G";
             this.chkWB4G.Size = new System.Drawing.Size(114, 17);
             this.chkWB4G.TabIndex = 7;
@@ -560,6 +560,7 @@
             this.chkListBoxPatches.CheckOnClick = true;
             this.chkListBoxPatches.FormattingEnabled = true;
             this.chkListBoxPatches.Items.AddRange(new object[] {
+            "UsbdSecPatch",
             "nofcrt",
             "noSShdd",
             "nointmu",
@@ -568,7 +569,7 @@
             "nolan"});
             this.chkListBoxPatches.Location = new System.Drawing.Point(8, 9);
             this.chkListBoxPatches.Name = "chkListBoxPatches";
-            this.chkListBoxPatches.Size = new System.Drawing.Size(83, 94);
+            this.chkListBoxPatches.Size = new System.Drawing.Size(141, 94);
             this.chkListBoxPatches.TabIndex = 5;
             this.toolTip1.SetToolTip(this.chkListBoxPatches, "XeBuild Patches which can be selected");
             this.chkListBoxPatches.SelectedIndexChanged += new System.EventHandler(this.chkListBoxPatches_SelectedIndexChanged);
